@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Zoom On Hover</title>
+<style>
+  .zoom {
+    transition: transform 0.3s;
+    margin: 0 auto;
+    border-radius: 7px;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+</style>
+<script>
+  // Disable right-click context menu
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+  });
+</script>
+</head>
+<body>
+<div style="padding-top: 10%;">
+  <h2>Hover over the image to zoom</h2>
+  <center>
+   
+    <img class="zoom" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/1200px-UEFA_Champions_League.svg.png" alt="UCl" width="300" height="200">
+  </center>
+</div>
+</body>
+</html>

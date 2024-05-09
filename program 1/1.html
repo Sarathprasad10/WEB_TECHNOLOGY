@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title>Using HTML, CSS creates a horizontally scrollable container that will snap on elements when scrolling</title>
+</head>
+<body>
+<div class="horizontal-snap">
+ <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3h3DghzYjkz4YfkUjG6n0gs-34_Hri-Wwcw&usqp=CAU"></a>
+ <a href="#"><img src="https://i.pinimg.com/736x/f9/0a/91/f90a91b0b66f6350032ed113ac8cf083.jpg"></a>
+ <a href="#"><img src="https://media.istockphoto.com/id/1068395160/photo/sloth-in-costa-rica.jpg?s=612x612&w=0&k=20&c=yBRmFqb0qwBUWT0ne4fuVvQiN2vv4iKEaDj2v_gwE-I="></a>
+ <a href="#"><img src=""></a>
+ <a href="#"><img src=""></a>
+ </div>
+</body>
+</html>
+
+<style> 
+
+    .horizontal-snap {
+      
+     margin: 0 auto;
+     display: grid;
+     grid-auto-flow: column;
+     gap: 1rem;
+     height: calc(180px + 1rem);
+     padding: 1rem;
+     width: 480px;
+     overflow-y: auto;
+     overscroll-behavior-x: contain;
+     scroll-snap-type: x mandatory;
+    }
+    .horizontal-snap > a {
+     scroll-snap-align: center;
+    }
+    .horizontal-snap img {
+     width: 180px;
+     max-width: none;
+     object-fit: contain;
+     border-radius: 1rem;
+    }
+    </style>
