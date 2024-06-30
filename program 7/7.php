@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Comment Box in HTML and CSS Example</title>
 <link rel="stylesheet" href="7.css">
-<!-- Add any additional stylesheets or scripts here -->
+<!-- Add any additional stylesheets or scripts here  -->
 </head>
 <body>
 <header>
