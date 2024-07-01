@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Redirect to Section</title>
 <style>
-  /* Optional: Some basic styling for better presentation */
+  /* Optional: Some basic styling for better presentation */ 
   body {
     font-family: Arial, sans-serif;
     margin: 0;
