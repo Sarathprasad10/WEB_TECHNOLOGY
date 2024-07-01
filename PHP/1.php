@@ -10,7 +10,7 @@
         <input type="submit" name="submit" value="Check">
     </form>
 
-    <?php
+    <?php 
     // Function to check if a number is Armstrong or not
     function isArmstrong($number) 
     {
