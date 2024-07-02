@@ -10,7 +10,7 @@
     if(isset($_COOKIE['username'])) {
         echo "Welcome back, " . $_COOKIE['username'] . "!<br>";
         echo "Your email is: " . $_COOKIE['email'] . ".";
-    } else {
+    } else { 
     ?>
     <form method="post" action="">
         Enter your name: <input type="text" name="username"><br>
