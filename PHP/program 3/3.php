@@ -20,7 +20,7 @@
             return ((($year % 4 == 0) && ($year % 100 != 0)) || ($year % 400 == 0));
         }
         $year = $_POST["year"];
-        if (isLeapYear($year)) 
+        if (isLeapYear($year))  
         {
             echo "$year is a leap year.";
         } 
