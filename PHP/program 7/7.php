@@ -14,7 +14,7 @@ function displayLastVisited()
         echo "Last visited on: " . $_COOKIE['last_visited'];
     } 
     else 
-    {
+    { 
         echo "First visit!";
     }
 }
