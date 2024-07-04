@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decimal to Binary Converter</title>
-</head>
+</head> 
 <body>
     <form action="" method="post">
         <label for="num">Enter the Number:</label>
