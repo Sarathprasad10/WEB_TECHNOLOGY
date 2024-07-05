@@ -10,7 +10,7 @@
             <tr><td>1: Display the contents using foreach</td></tr>
             <tr><td>2: Display array in sorted order</td></tr>
             <tr><td>3: Display array without duplicate elements</td></tr>
-            <tr><td>4: Remove the last element and display</td></tr>
+            <tr><td>4: Remove the last element and display</td></tr> 
             <tr><td>5: Display array in reverse order</td></tr>
             <tr><td>Enter the number: <input type="text" name="ch"></td></tr>
             <tr><td><input type="submit" value="submit" name="choice"/></td></tr>
