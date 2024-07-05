@@ -11,7 +11,7 @@ if (!isset($_POST["submit"])) { ?>
 } else {
     if (isset($_POST["to_email"])) {
         $to_email = $_POST["to_email"];
-        $from_email = $_POST["from_email"];
+        $from_email = $_POST["from_email"]; 
         $subject = $_POST["subject"];
         $body = $_POST["message"];
 
