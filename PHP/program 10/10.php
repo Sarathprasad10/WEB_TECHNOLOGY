@@ -6,7 +6,7 @@ $password = "";
 $dbname = "ems_db";
 
 //create connection
-$conn = new mysqli($servername,$username,$password,$dbname);
+$conn = new mysqli($servername,$username,$password,$dbname); 
 
 //check connection 
 if($conn->connect_error) 
