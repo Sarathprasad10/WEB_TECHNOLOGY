@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Fibonacci Sequence</h1>
-    <div id="fibonacci_sequence"></div>
+    <div id="fibonacci_sequence"></div> 
 
     <script>
         // Function to generate Fibonacci sequence
