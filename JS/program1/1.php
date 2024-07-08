@@ -6,7 +6,7 @@
 <title>Popup Boxes Example</title>
 </head>
 <body>
-
+ 
 <h1>Popup Boxes Example</h1>
 
 <button onclick="showAlert()">Show Alert</button>
