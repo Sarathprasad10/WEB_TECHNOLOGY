@@ -8,7 +8,7 @@
     <h2>Quadratic Equation is: ax<sup>2</sup> + bx + c</h2>
     <input type="button" value="Find Root" onclick="func()">
     <script>
-        function func() {
+        function func() { 
             //a=1,b-3,c=2 
             let a = prompt("Enter the value of a");
             let b = prompt("Enter the value of b");
