@@ -6,7 +6,7 @@
 <body>
     <h1>Javascript Program to Solve Quadratic Equation</h1>
     <h2>Quadratic Equation is: ax<sup>2</sup> + bx + c</h2>
-    <input type="button" value="Find Root" onclick="func()">
+    <input type="button" value="Find Root" onclick="func()"> 
     <script>
         function func() { 
             //a=1,b-3,c=2 
