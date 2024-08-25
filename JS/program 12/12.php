@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Count Vowels in a String</h1>
-    <input type="text" id="inputString" placeholder="Enter a string">
+    <input type="text" id="inputString" placeholder="Enter a string"> 
     <button onclick="countVowels()">Count Vowels</button>
     <p id="result"></p>
 
